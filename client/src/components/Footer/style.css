@@ -1,0 +1,44 @@
+@import url("../../styles/index.css");
+
+.footer-content {
+  width: 80%;
+}
+
+.footer-main-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer-item {
+  padding-left: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: var(--theme-font-primary);
+}
+.footer-item:nth-child(1) {
+  padding-top: 20vh
+}
+.social-link a {
+  text-decoration: none;
+  color: var(--theme-font-primary);
+  font-size: 27px;
+}
+
+.social-link a:hover {
+  color: var(--theme-font-secondary);
+  transition: all 2s;
+}
+
+.footer-item:nth-child(2) {
+  padding-top: 20vh;
+
+}
+
+.footer-dev {
+  margin-top: 50px;
+  text-align: center;
+  color: var(--theme-font-primary);
+}

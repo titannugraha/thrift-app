@@ -1,0 +1,31 @@
+@import url("../../styles/index.css");
+
+.main-product {
+  margin-top: 10vh;
+}
+
+.header-product {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.header-product-item a {
+    color: var(--theme-font-primary);
+}
+
+.header-product-item a:hover {
+    color: var(--theme-font-secondary);
+}
+
+
+.header-product h1 {
+  color: var(--theme-font-primary);
+}
+
+.card-product a {
+  text-decoration: none;
+}

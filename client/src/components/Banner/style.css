@@ -1,0 +1,31 @@
+@import url("../../styles/index.css");
+
+.banner-content {
+  width: 100%;
+  height: 100%;
+  background: url("https://images.pexels.com/photos/7679725/pexels-photo-7679725.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  border: 1;
+}
+
+.banner-item {
+  width: 80%;
+  margin-bottom: 16px;
+}
+
+.banner-item h1 {
+  margin-bottom: 8px;
+  text-align: center;
+  color: var(--theme-font-secondary);
+}
+
+.banner-item p {
+  color: var(--theme-font-primary);
+  text-align: center;
+}

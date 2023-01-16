@@ -1,0 +1,22 @@
+@import url("../../styles/index.css");
+
+.about-header {
+  margin-top: 15vh;
+  margin-bottom: 8px;
+  width: 100%;
+  font-weight: bold;
+  color: var(--theme-font-primary);
+}
+
+.card-about {
+  /* background-color: var(--theme-secondary); */
+  border: none;
+}
+
+.card-title {
+  color: var(--theme-font-secondary);
+}
+
+.card-text {
+  color: var(--theme-font-primary);
+}

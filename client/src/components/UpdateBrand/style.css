@@ -1,0 +1,30 @@
+@import url("../../styles/index.css");
+
+.header-main-update {
+    margin-top: 20vh;
+    margin-bottom: 8px;
+    width: 100%;
+    font-weight: bold;
+    color: var(--theme-font-primary);
+  }
+
+.form-label {
+  font-weight: bold;
+  color: var(--theme-font-primary);
+}
+
+.btn-submit {
+  background-color: var(--theme-font-secondary);
+  padding: 4px 8px;
+  border: 1px solid;
+  color: var(--theme-font-primary);
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 1vh;
+  float: left;
+}
+
+.btn-submit:hover {
+  background-color: var(--theme-font-primary);
+  color: var(--theme-font-secondary);
+}

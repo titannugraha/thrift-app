@@ -1,0 +1,73 @@
+@import url("../../styles/index.css");
+
+.navbar-content {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navbar-item:nth-child(1) {
+  width: 20%;
+}
+
+.navbar-logo {
+  color: var(--theme-font-primary);
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 27px;
+}
+.navbar-logo strong {
+  color: var(--theme-font-secondary);
+}
+.navbar-logo:hover {
+  color: var(--theme-font-secondary);
+}
+
+.navbar-item:nth-child(2) {
+  width: 50%;
+}
+
+.navbar-item:nth-child(3) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 30%;
+}
+.navbar-login small {
+  color: var(--theme-font-primary);
+}
+
+
+.navbar-ul {
+  list-style: none;
+}
+
+.navbar-ul li a {
+  text-decoration: none;
+  float: left;
+  padding: 8px 16px;
+  color: var(--theme-font-primary);
+}
+
+.navbar-ul li a:hover {
+  background-color: var(--theme-font-secondary);
+  border-radius: 8px;
+  transition: all 0, 5s;
+}
+
+#dropdown-button {
+  background-color: var(--theme-secondary);
+  padding: 2px 4px;
+  color: var(--theme-font-primary);
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+}
+#dropdown-button:hover {
+  background-color: var(--theme-secondary);
+  color: var(--theme-font-secondary);
+}
+
